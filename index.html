@@ -1,141 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saad ud din - Portfolio</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Saad ud din - Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+            header {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 20px 0;
+            }
+            header h1 {
+                font-size: 36px;
+            }
+            header p {
+                font-size: 18px;
+            }
+            nav {
+                text-align: center;
+                margin: 20px 0;
+            }
+            nav a {
+                text-decoration: none;
+                margin: 10px;
+                color: #333;
+                font-weight: bold;
+            }
+            nav a:hover {
+                color: #555;
+            }
+            section {
+                padding: 20px;
+                background-color: #fff;
+                margin: 20px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <nav>
+            <h1>Saad ud din</h1>
+            <p>Welcome to my portfolio website</p>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Saad ud din</h1>
+        <p>Web Developer</p>
+    </section>
+    <nav>
+    <img src="c:\Users\agp\Pictures\WhatsApp Image 2023-10-14 at 05.58.00.jpg" alt="Your Picture" width="100" height="150">
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Data science student,studing in UET PESHAWAR..</p>
+    </section>
+    <video width="240" height="100" controls>
+        <source src="https://youtu.be/zpWF6Hbgio4?feature=shared.mp4" type="video/mp4">
+    </video>
+    <title>Link Inside a Box</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
+        .box {
+            width: 0%;
+            height: 0%;
+            background-color: #dfe6ea;
             text-align: center;
-            padding: 20px 0;
+            line-height: 20px;
+            color: white;
         }
-        header h1 {
-            font-size: 36px;
-        }
-        header p {
-            font-size: 18px;
-        }
-        nav {
-            text-align: center;
-            margin: 20px 0;
-        }
-        nav a {
+
+        .box a {
             text-decoration: none;
-            margin: 10px;
-            color: #333;
-            font-weight: bold;
+            text-align: center;
+            color: rgb(99, 87, 168);
+            display: inside;
+            height: 10%;
         }
-        nav a:hover {
-            color: #555;
+        body {
+            background-color: #000000; 
         }
-        section {
-            padding: 20px;
-            background-color: #fff;
-            margin: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+        .protfolio {
+            background-color: #000000;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Saad ud din</h1>
-        <p>Welcome to my portfolio website</p>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#resume">Resume</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <!-- About Section -->
-    <section id="about">
-        <img src="./image/WhatsApp Image 2023-10-07 at 07.02.26.jpg" alt="Description of the image" width="100" height="150">
-        <h2>About Me</h2>
-        <p>i am a Data science student in UET PESHAWAR.</p>
-        <h3>Skills</h3>
-        <ul>
-            <li>I am data scintist</li>
-            <li>I am a web devolper</li>
-        </ul>
-        <h3>Academic Achievements</h3>
-        <ul>
-            <li>i am in 5th semester</li>
-        </ul>
-    </section>
+    <div class="box">
+        <a href="https://youtu.be/zpWF6Hbgio4?feature=shared">Click Me</a>
+    </div>
 
-    <!-- Resume Section -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <h3>Educational Background</h3>
-        <ul>
-            <li>Degree: I complete my Fsc</li>
-            <li>Institution: I complete my fsc from Kohat</li>
-            <li>Graduation Date: I am not Graduated Yet</li>
-        </ul>
-        <h3>Professional Experience</h3>
-        <ul>
-            <li>Job Title: I am full time student</li>
-        </ul>
-        <h3>Skills</h3>
-        <ul>
-            <li>Data science</li>
-            <li>Web devolper</li>
-        </ul>
-        <a href="resume.pdf" download>Download Resume (PDF)</a>
-    </section>
-
-    <!-- Portfolio Section -->
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <!-- Project 1 -->
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Project Description 1</p>
-            <p>Technologies Used: HTML, CSS, JavaScript</p>
-            <!-- Add images or videos here -->
-        </div>
-        <!-- Project 2 -->
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Project Description 2</p>
-            <p>Technologies Used: Python, Django</p>
-            <!-- Add images or videos here -->
-        </div>
+        <!-- Add your portfolio items here -->
     </section>
-
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <form action="contact.php" method="post">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
-
+            <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-
-            <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required><br>
-
+            <input type="email" id="email" name="email" required>
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea><br>
-
-            <input type="submit" value="Send">
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
         </form>
-        <p>Email: saadu9255@email.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
     </section>
+    <style>
+video {
+    position: relative;
+    top: 100%;
+    right: 50%;
+    left: 0%;
+}
+video a{
+    position: sticky;
+
+}
+    </style>
 </body>
 </html>
